@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "situations": [
+    {
+      "id": "after-a-fight",
+      "title": { "en": "After a fight", "ru": "После ссоры" },
+      "use_when": {
+        "en": "A fight happened in the last hours or days, and it keeps going round in your head.",
+        "ru": "Ссора была в последние часы или дни, и она всё ещё крутится в голове."
+      },
+      "before": {
+        "en": "If you are still boiling, take a break first: at least 20 minutes of something else (a walk, a shower, music). Writing goes better once your body has calmed down.",
+        "ru": "Если ты ещё кипишь, сначала сделай паузу: хотя бы 20 минут на что-то другое (прогулка, душ, музыка). Писать легче, когда тело успокоилось."
+      },
+      "prompts": [
+        {
+          "q": { "en": "What happened, as a camera would have recorded it? Only words and actions, no interpretations.", "ru": "Что произошло, как это записала бы камера? Только слова и действия, без толкований." },
+          "f": { "en": "What was the first moment it started going wrong?", "ru": "В какой момент всё начало идти не так?" }
+        },
+        {
+          "q": { "en": "What did I feel during the fight, and what do I feel now?", "ru": "Что я чувствовал(а) во время ссоры, и что чувствую сейчас?" },
+          "f": { "en": "Which feeling is the hardest to admit?", "ru": "Какое чувство признать труднее всего?" }
+        },
+        {
+          "q": { "en": "What did I tell myself about my partner in that moment?", "ru": "Что я говорил(а) себе о партнёре в тот момент?" },
+          "f": { "en": "What else could be true? Name one other explanation.", "ru": "Что ещё может быть правдой? Назови одно другое объяснение." }
+        },
+        {
+          "q": { "en": "What did I need in that moment and not get?", "ru": "Что мне было нужно в тот момент и чего я не получил(а)?" },
+          "f": { "en": "Did I say it out loud, or did I expect it to be guessed?", "ru": "Я сказал(а) это вслух или ждал(а), что догадаются?" }
+        },
+        {
+          "q": { "en": "What was my part in how it went? Not blame, just my share.", "ru": "Какая моя часть в том, как всё пошло? Не вина, а просто моя доля." },
+          "f": { "en": "What would I do differently in that same moment?", "ru": "Что бы я сделал(а) иначе в тот же момент?" }
+        },
+        {
+          "q": { "en": "What might my partner have felt or needed?", "ru": "Что мог(ла) чувствовать или хотеть партнёр?" },
+          "f": { "en": "This is a guess. How could I check it instead of assuming?", "ru": "Это догадка. Как её проверить, а не додумывать?" }
+        },
+        {
+          "q": { "en": "What do I want now: to talk it through, to apologise, to ask for something, or to let it go?", "ru": "Чего я хочу теперь: поговорить, извиниться, о чём-то попросить или отпустить?" },
+          "f": { "en": "What first sentence could I start with?", "ru": "С какой первой фразы можно начать?" }
+        }
+      ]
+    },
+    {
+      "id": "before-a-hard-talk",
+      "title": { "en": "Before a hard conversation", "ru": "Перед трудным разговором" },
+      "use_when": {
+        "en": "You need to raise something difficult with your partner and want to go in clear-headed.",
+        "ru": "Нужно поднять с партнёром трудную тему, и хочется подойти к разговору с ясной головой."
+      },
+      "before": {
+        "en": "If you are afraid of how your partner will react, put your safety first. Preparing better words does not make an unsafe conversation safe. See the box at the bottom of the page.",
+        "ru": "Если ты боишься реакции партнёра, сначала подумай о своей безопасности. Хорошо подобранные слова не делают опасный разговор безопасным. Смотри блок внизу страницы."
+      },
+      "prompts": [
+        {
+          "q": { "en": "What do I want to talk about, in one or two sentences?", "ru": "О чём я хочу поговорить, в одном-двух предложениях?" },
+          "f": { "en": "If the talk goes well, what will be different afterwards?", "ru": "Если разговор пройдёт хорошо, что изменится после?" }
+        },
+        {
+          "q": { "en": "What exactly do I want to ask for? A concrete action, not \"be more attentive\".", "ru": "О чём именно я хочу попросить? Конкретное действие, а не «будь внимательнее»." },
+          "f": { "en": "What would a small first version of it look like?", "ru": "Как выглядел бы маленький первый шаг к этому?" }
+        },
+        {
+          "q": { "en": "What am I afraid of in this conversation?", "ru": "Чего я боюсь в этом разговоре?" },
+          "f": { "en": "If that happened, what would I do?", "ru": "Если это случится, что я сделаю?" }
+        },
+        {
+          "q": { "en": "How might my partner see this situation?", "ru": "Как может видеть эту ситуацию партнёр?" },
+          "f": { "en": "What in their view do I agree with, even a little?", "ru": "С чем в его или её взгляде я согласен(на), хотя бы немного?" }
+        },
+        {
+          "q": { "en": "Write the opening line, starting from yourself: \"I feel ... when ..., and I would like ...\"", "ru": "Напиши первую фразу, начиная с себя: «Я чувствую ..., когда ..., и мне хотелось бы ...»" },
+          "f": { "en": "Read it aloud. Does it sound like a request or like a charge?", "ru": "Прочитай вслух. Это звучит как просьба или как обвинение?" }
+        },
+        {
+          "q": { "en": "When and where is a good moment for it?", "ru": "Когда и где для этого хороший момент?" },
+          "f": { "en": "Not in passing, not when someone is tired or hungry, not in front of others.", "ru": "Не на бегу, не когда кто-то устал или голоден, не при других." }
+        },
+        {
+          "q": { "en": "What will I do if the conversation starts going badly?", "ru": "Что я сделаю, если разговор начнёт идти плохо?" },
+          "f": { "en": "Which words will I use to ask for a pause, and when will we come back to it?", "ru": "Какими словами я попрошу паузу, и когда мы к этому вернёмся?" }
+        }
+      ]
+    },
+    {
+      "id": "weekly-check-in",
+      "title": { "en": "Weekly couple check-in", "ru": "Еженедельная сверка пары" },
+      "use_when": {
+        "en": "Once a week, alone or with your partner, to notice what is going on between you before it piles up.",
+        "ru": "Раз в неделю, одному или вместе с партнёром, чтобы заметить, что происходит между вами, пока это не накопилось."
+      },
+      "before": {
+        "en": "If you do it together, each of you writes alone first, then you share only what you want to share. Start with the good parts.",
+        "ru": "Если делаете вместе, сначала каждый пишет сам, потом делитесь только тем, чем хочется. Начните с хорошего."
+      },
+      "prompts": [
+        {
+          "q": { "en": "What was good between us this week?", "ru": "Что было хорошего между нами на этой неделе?" },
+          "f": { "en": "What did my partner do that I appreciated, and did I tell them?", "ru": "Что сделал(а) партнёр, что я оценил(а), и сказал(а) ли я об этом?" }
+        },
+        {
+          "q": { "en": "When did I feel close this week? When did I feel distant?", "ru": "Когда на этой неделе я чувствовал(а) близость? А когда отдаление?" },
+          "f": { "en": "What was going on around those moments?", "ru": "Что происходило вокруг этих моментов?" }
+        },
+        {
+          "q": { "en": "Is there something I left unsaid?", "ru": "Есть ли что-то, что я не договорил(а)?" },
+          "f": { "en": "Is it worth bringing up, and how?", "ru": "Стоит ли это поднять, и как?" }
+        },
+        {
+          "q": { "en": "What do I need from us next week? One concrete request.", "ru": "Что мне нужно от нас на следующей неделе? Одна конкретная просьба." },
+          "f": { "en": "How will I ask for it?", "ru": "Как я об этом попрошу?" }
+        },
+        {
+          "q": { "en": "What can I give next week? One small thing.", "ru": "Что я могу дать на следующей неделе? Одна небольшая вещь." },
+          "f": { "en": "When exactly will I do it?", "ru": "Когда именно я это сделаю?" }
+        },
+        {
+          "q": { "en": "What are we looking forward to together?", "ru": "Чего мы ждём вместе?" },
+          "f": { "en": "If nothing comes to mind, what could we plan?", "ru": "Если ничего не приходит в голову, что можно запланировать?" }
+        }
+      ]
+    },
+    {
+      "id": "jealousy",
+      "title": { "en": "When I feel jealous", "ru": "Когда я ревную" },
+      "use_when": {
+        "en": "Jealousy has come up and you want to understand it before you act on it.",
+        "ru": "Появилась ревность, и хочется понять её до того, как что-то делать."
+      },
+      "before": {
+        "en": "Jealousy is a feeling, not a fact about your partner. If jealousy in your relationship has turned into control or threats, from either side, that is a reason to talk to a specialist.",
+        "ru": "Ревность это чувство, а не факт о партнёре. Если ревность в ваших отношениях превратилась в контроль или угрозы, с любой стороны, это повод поговорить со специалистом."
+      },
+      "prompts": [
+        {
+          "q": { "en": "What happened that set off the feeling? Facts only.", "ru": "Что произошло, что запустило это чувство? Только факты." },
+          "f": { "en": "What did I see or hear myself, and what did I add in my head?", "ru": "Что я видел(а) или слышал(а) сам(а), а что достроил(а) в голове?" }
+        },
+        {
+          "q": { "en": "What exactly am I afraid of?", "ru": "Чего именно я боюсь?" },
+          "f": { "en": "Losing them? Being replaced? Being deceived? Mattering less?", "ru": "Потерять? Что меня заменят? Обманут? Что я стану менее важен(на)?" }
+        },
+        {
+          "q": { "en": "How strong is the feeling right now, from 0 to 10?", "ru": "Насколько сильное чувство прямо сейчас, от 0 до 10?" },
+          "f": { "en": "What makes it stronger, and what makes it weaker?", "ru": "Что его усиливает, а что ослабляет?" }
+        },
+        {
+          "q": { "en": "What did I do with it: check, ask, stay silent, accuse?", "ru": "Что я с ним сделал(а): проверял(а), спросил(а), промолчал(а), обвинил(а)?" },
+          "f": { "en": "How did that work for us?", "ru": "Как это сработало для нас?" }
+        },
+        {
+          "q": { "en": "What would help me feel more secure in this relationship?", "ru": "Что помогло бы мне чувствовать себя спокойнее в этих отношениях?" },
+          "f": { "en": "Is it something to ask for, something I can do myself, or both?", "ru": "Это то, о чём можно попросить, что могу сделать я сам(а), или и то и другое?" }
+        },
+        {
+          "q": { "en": "Do I want to say something to my partner about it?", "ru": "Хочу ли я что-то сказать об этом партнёру?" },
+          "f": { "en": "How can I say it as my feeling, not as a charge against them?", "ru": "Как сказать это как своё чувство, а не как обвинение?" }
+        }
+      ]
+    },
+    {
+      "id": "feeling-distant",
+      "title": { "en": "When we feel distant", "ru": "Когда мы отдалились" },
+      "use_when": {
+        "en": "Things are not bad, but you feel further apart than before.",
+        "ru": "Всё вроде не плохо, но вы как будто дальше друг от друга, чем раньше."
+      },
+      "before": {
+        "en": "Distance is common in long relationships and usually builds slowly. The point here is to notice it, not to find who is to blame.",
+        "ru": "Отдаление часто бывает в долгих отношениях и обычно копится медленно. Здесь важно заметить его, а не найти виноватого."
+      },
+      "prompts": [
+        {
+          "q": { "en": "When did I last feel really close to my partner? What was happening then?", "ru": "Когда я в последний раз чувствовал(а) настоящую близость с партнёром? Что тогда происходило?" },
+          "f": { "en": "What made that moment possible?", "ru": "Что сделало этот момент возможным?" }
+        },
+        {
+          "q": { "en": "What has changed since then?", "ru": "Что изменилось с тех пор?" },
+          "f": { "en": "Between us, in the life around us, in me?", "ru": "Между нами, в жизни вокруг нас, во мне?" }
+        },
+        {
+          "q": { "en": "What do I miss most?", "ru": "Чего мне не хватает больше всего?" },
+          "f": { "en": "Is it something specific: time, touch, talking, laughing together?", "ru": "Это что-то конкретное: время, прикосновения, разговоры, смех вместе?" }
+        },
+        {
+          "q": { "en": "What do I usually do when I feel distant: pull back, reach out, wait?", "ru": "Что я обычно делаю, когда чувствую отдаление: отстраняюсь, тянусь навстречу, жду?" },
+          "f": { "en": "What does my partner see of this from the outside?", "ru": "Что из этого видит партнёр снаружи?" }
+        },
+        {
+          "q": { "en": "What small step towards contact could I take this week?", "ru": "Какой маленький шаг навстречу я могу сделать на этой неделе?" },
+          "f": { "en": "What would make it easy for my partner to respond?", "ru": "Что сделает так, чтобы партнёру было легко откликнуться?" }
+        },
+        {
+          "q": { "en": "Do I want to talk about this distance with my partner?", "ru": "Хочу ли я поговорить об этом отдалении с партнёром?" },
+          "f": { "en": "How could I start without blame?", "ru": "Как начать без упрёка?" }
+        }
+      ]
+    },
+    {
+      "id": "after-a-breakup",
+      "title": { "en": "After a breakup", "ru": "После расставания" },
+      "use_when": {
+        "en": "A relationship has ended, recently or a while ago, and you want to sort out your thoughts.",
+        "ru": "Отношения закончились, недавно или какое-то время назад, и хочется разобраться в мыслях."
+      },
+      "before": {
+        "en": "Go at your own pace and skip any question that is too much today. If for weeks you can hardly sleep, eat or work, or you have thoughts of not wanting to live, please talk to a specialist or a helpline.",
+        "ru": "Иди в своём темпе и пропускай любой вопрос, который сегодня слишком тяжёлый. Если неделями трудно спать, есть или работать, или появляются мысли, что не хочется жить, пожалуйста, обратись к специалисту или на линию поддержки."
+      },
+      "prompts": [
+        {
+          "q": { "en": "What happened, in a few sentences?", "ru": "Что произошло, в нескольких предложениях?" },
+          "f": { "en": "Which version do I tell other people, and which do I tell myself?", "ru": "Какую версию я рассказываю другим, а какую себе?" }
+        },
+        {
+          "q": { "en": "What am I feeling most these days?", "ru": "Что я чувствую больше всего в эти дни?" },
+          "f": { "en": "What helps, even a little?", "ru": "Что помогает, хотя бы немного?" }
+        },
+        {
+          "q": { "en": "What do I miss, and what do I not miss at all?", "ru": "По чему я скучаю, а по чему совсем нет?" },
+          "f": { "en": "Both lists can be true at the same time.", "ru": "Оба списка могут быть правдой одновременно." }
+        },
+        {
+          "q": { "en": "What did this relationship show me about what I need?", "ru": "Что эти отношения показали мне о том, что мне нужно?" },
+          "f": { "en": "What do I not want to repeat?", "ru": "Чего я не хочу повторять?" }
+        },
+        {
+          "q": { "en": "Who and what supports me right now?", "ru": "Кто и что меня сейчас поддерживает?" },
+          "f": { "en": "Who could I message today?", "ru": "Кому я могу написать сегодня?" }
+        },
+        {
+          "q": { "en": "What do I want to do for myself this week?", "ru": "Что я хочу сделать для себя на этой неделе?" },
+          "f": { "en": "Something small and doable counts.", "ru": "Маленькое и выполнимое тоже считается." }
+        }
+      ]
+    }
+  ],
+  "closing": [
+    {
+      "q": { "en": "One thought I take away from this.", "ru": "Одна мысль, которую я забираю отсюда." },
+      "f": { "en": "One or two sentences.", "ru": "Одно-два предложения." }
+    },
+    {
+      "q": { "en": "One small step, and when I will take it.", "ru": "Один маленький шаг, и когда я его сделаю." },
+      "f": { "en": "Small enough that it will really happen.", "ru": "Достаточно маленький, чтобы он правда случился." }
+    }
+  ]
+}
