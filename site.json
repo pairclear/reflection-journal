@@ -1,0 +1,34 @@
+{
+  "en": {
+    "name": "Relationship reflection journal",
+    "title": "Relationship journal prompts: after a fight, before a hard conversation",
+    "description": "Journal prompts for the hard moments in a relationship: after a fight, before a hard conversation, jealousy, feeling distant, after a breakup, weekly check-in. One question at a time, private and offline."
+  },
+  "ru": {
+    "name": "Дневник отношений",
+    "title": "Вопросы для дневника отношений: после ссоры и перед трудным разговором",
+    "description": "Вопросы для дневника на трудные моменты в отношениях: после ссоры, перед трудным разговором, ревность, отдаление, после расставания, еженедельная сверка. По одному вопросу, приватно и офлайн."
+  },
+  "llms_intro": "Six situations with 6-7 questions each, asked one at a time with a follow-up hint. Entries stay in the browser (localStorage) and can be exported as Markdown. data/prompts.json is the single source.",
+  "files": [
+    [
+      "questions/en.md",
+      "All questions (EN)",
+      "every situation and question"
+    ],
+    [
+      "data/prompts.json",
+      "prompts.json",
+      "source data"
+    ],
+    [
+      "prompts/chatgpt-en.md",
+      "ChatGPT prompt",
+      "one question at a time in a chat"
+    ]
+  ],
+  "slug": "reflection-journal",
+  "url": "https://pairclear.github.io/reflection-journal/",
+  "repo": "https://github.com/pairclear/reflection-journal",
+  "updated": "2026-11-26"
+}

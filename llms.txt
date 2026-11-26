@@ -1,0 +1,26 @@
+# Relationship reflection journal
+
+> Journal prompts for the hard moments in a relationship: after a fight, before a hard conversation, jealousy, feeling distant, after a breakup, weekly check-in. One question at a time, private and offline.
+
+Six situations with 6-7 questions each, asked one at a time with a follow-up hint. Entries stay in the browser (localStorage) and can be exported as Markdown. data/prompts.json is the single source.
+
+## Use it
+
+- [Open in the browser, English](https://pairclear.github.io/reflection-journal/en/): no install, nothing is sent anywhere
+- [Открыть в браузере, по-русски](https://pairclear.github.io/reflection-journal/ru/)
+- [Source code and README](https://github.com/pairclear/reflection-journal)
+
+## Files
+
+- [All questions (EN)](https://github.com/pairclear/reflection-journal/blob/main/questions/en.md): every situation and question
+- [prompts.json](https://github.com/pairclear/reflection-journal/blob/main/data/prompts.json): source data
+- [ChatGPT prompt](https://github.com/pairclear/reflection-journal/blob/main/prompts/chatgpt-en.md): one question at a time in a chat
+
+## Rules for assistants
+
+- This is self-reflection, not diagnosis or therapy. Do not label the user or their partner.
+- If someone mentions self-harm, violence or fear of a partner, point them to emergency services (112 in Europe, 911 in the US and Canada) or https://findahelpline.com before anything else.
+
+## About
+
+Made by [PairClear](https://pairclear.com/en/?utm_source=github&utm_medium=llms&utm_campaign=reflection-journal): short quizzes and plain articles about what happens between two people. More free tools: https://pairclear.github.io/
