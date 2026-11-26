@@ -1,12 +1,23 @@
-<p align="center"><img src="assets/screenshot.png" alt="Reflection journal: one question at a time after a fight with a partner (invented example answer)" width="720"></p>
+<a href="https://pairclear.github.io/reflection-journal/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img alt="PairClear: Reflection journal" src="assets/banner-light.png" width="100%">
+</picture></a>
 
 # Relationship journal prompts: after a fight, before a hard conversation
 
 **[Open the journal →](https://pairclear.github.io/reflection-journal/?lang=en)** · [Русская версия](README.ru.md) · [All questions](questions/en.md) · [ChatGPT prompt](prompts/chatgpt-en.md) · [Claude skill](SKILL.md)
 
-![No install](https://img.shields.io/badge/install-none-2ea44f) ![Works offline](https://img.shields.io/badge/works-offline-2ea44f) ![No tracking](https://img.shields.io/badge/tracking-none-2ea44f) ![RU + EN](https://img.shields.io/badge/lang-RU%20%7C%20EN-blue) [![Made by PairClear](https://img.shields.io/badge/made%20by-PairClear-b85c3c)](https://pairclear.com/en/?utm_source=github&utm_medium=readme&utm_campaign=reflection-journal)
+![No install](https://img.shields.io/badge/install-none-3a362e) ![Works offline](https://img.shields.io/badge/works-offline-3a362e) ![No tracking](https://img.shields.io/badge/tracking-none-3a362e) ![RU + EN](https://img.shields.io/badge/lang-RU%20%7C%20EN-6b665d) [![Made by PairClear](https://img.shields.io/badge/made%20by-PairClear-b5613f?labelColor=16150f&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI%2BPHBhdGggZD0iTTEzIDVDNSAxMyA1IDI3IDEzIDM1TTI3IDVDMzUgMTMgMzUgMjcgMjcgMzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0LjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjQuNCIgZmlsbD0iI0UwOEE2MyIvPjwvc3ZnPg%3D%3D)](https://pairclear.com/en/walking-on-eggshells/?utm_source=github&utm_medium=readme&utm_campaign=reflection-journal)
 
 > **Self-reflection, not diagnosis.** These questions are not a test, a diagnosis or therapy, and they do not replace a professional. If you are thinking about hurting yourself, are afraid of your partner, or there is violence at home, put the journal aside and call emergency services (112 in Europe, 911 in the US and Canada) or find a free helpline, including for domestic abuse, at [findahelpline.com](https://findahelpline.com).
+
+## See it in action
+
+<p align="center"><img src="assets/demo.gif" alt="Demo: Reflection journal (invented example)" width="820"></p>
+
+<p align="center"><img src="assets/screenshot.png" alt="Reflection journal: one question at a time after a fight with a partner (invented example answer)" width="720"></p>
+
+**[Try it in your browser →](https://pairclear.github.io/reflection-journal/?lang=en)** No install, nothing is sent anywhere.
 
 A small journal for the moments when something is going on between you and your partner. Pick the situation, answer 6 or 7 questions one at a time (each has a follow-up hint), skip what does not fit, and finish with one thought and one small step.
 
@@ -61,6 +72,19 @@ The page makes no network requests, has no analytics, cookies or third-party fon
 ## Contributing
 
 All texts live in [`data/prompts.json`](data/prompts.json). After editing it, run `node scripts/build.mjs` (no dependencies): it updates `index.html`, `questions/` and `templates/`. New languages are welcome; please keep the safety texts and the "no diagnosis, no labels" framing.
+
+## More free tools from PairClear
+
+| Repo | What it is |
+|---|---|
+| [16 associations](https://github.com/pairclear/sixteen-associations) | Write 16 words about one topic and merge them in pairs down to one |
+| [Psychology lenses](https://github.com/pairclear/psychology-lenses) | One situation through Freud, Jung, CBT and 5 more schools |
+| [Thoughts after a fight](https://github.com/pairclear/conflict-thought-diary) | A CBT thought diary for conflicts with a partner |
+| [Not a therapist](https://github.com/pairclear/not-a-therapist) | Safety rules for AI chats about relationships |
+| [Relationship questionnaires](https://github.com/pairclear/relationship-questionnaires) | Seven short open questionnaires, scored in your browser |
+| [Couples counselling kit](https://github.com/pairclear/couples-counseling-kit) | Templates, homework and AI prompts for practitioners |
+
+All tools and articles: [pairclear.com](https://pairclear.com/en/?utm_source=github&utm_medium=readme&utm_campaign=reflection-journal) · [github.com/pairclear](https://github.com/pairclear)
 
 ## Licence
 

@@ -1,12 +1,23 @@
-<p align="center"><img src="assets/screenshot.png" alt="Дневник рефлексии: вопросы по одному после ссоры с партнёром (ответ в примере выдуман)" width="720"></p>
+<a href="https://pairclear.github.io/reflection-journal/?lang=ru"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.ru.png">
+  <img alt="PairClear: Дневник отношений" src="assets/banner-light.ru.png" width="100%">
+</picture></a>
 
 # Дневник отношений: вопросы после ссоры и перед трудным разговором
 
 **[Открыть дневник →](https://pairclear.github.io/reflection-journal/?lang=ru)** · [English](README.md) · [Все вопросы](questions/ru.md) · [Промпт для ChatGPT](prompts/chatgpt-ru.md) · [Скилл для Claude](SKILL.md)
 
-![Без установки](https://img.shields.io/badge/установка-не%20нужна-2ea44f) ![Работает офлайн](https://img.shields.io/badge/работает-офлайн-2ea44f) ![Без слежки](https://img.shields.io/badge/аналитика-нет-2ea44f) [![PairClear](https://img.shields.io/badge/сделано-PairClear-b85c3c)](https://pairclear.com/ru/?utm_source=github&utm_medium=readme&utm_campaign=reflection-journal)
+![Без установки](https://img.shields.io/badge/установка-не%20нужна-3a362e) ![Работает офлайн](https://img.shields.io/badge/работает-офлайн-3a362e) ![Без слежки](https://img.shields.io/badge/аналитика-нет-3a362e) [![PairClear](https://img.shields.io/badge/сделано-PairClear-b5613f?labelColor=16150f&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI%2BPHBhdGggZD0iTTEzIDVDNSAxMyA1IDI3IDEzIDM1TTI3IDVDMzUgMTMgMzUgMjcgMjcgMzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0LjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjQuNCIgZmlsbD0iI0UwOEE2MyIvPjwvc3ZnPg%3D%3D)](https://pairclear.com/ru/tests/konflikt-ili-sistema/?utm_source=github&utm_medium=readme&utm_campaign=reflection-journal)
 
 > **Саморефлексия, а не диагностика.** Эти вопросы не тест, не диагностика и не терапия и не заменяют специалиста. Если есть мысли навредить себе, ты боишься партнёра или дома есть насилие, отложи дневник и позвони в экстренную службу (112) или найди бесплатную линию поддержки, в том числе для пострадавших от домашнего насилия, на [findahelpline.com](https://findahelpline.com).
+
+## Как это выглядит
+
+<p align="center"><img src="assets/demo.gif" alt="Демонстрация: Дневник отношений (пример выдуман, интерфейс на английском)" width="820"></p>
+
+<p align="center"><img src="assets/screenshot.png" alt="Дневник рефлексии: вопросы по одному после ссоры с партнёром (ответ в примере выдуман)" width="720"></p>
+
+**[Открыть в браузере →](https://pairclear.github.io/reflection-journal/?lang=ru)** Работает без установки, ничего не отправляет.
 
 Небольшой дневник для моментов, когда между тобой и партнёром что-то происходит. Выбираешь ситуацию, отвечаешь на 6–7 вопросов по одному (у каждого есть подсказка), пропускаешь то, что не подходит, и заканчиваешь одной мыслью и одним маленьким шагом.
 
@@ -61,6 +72,19 @@
 ## Как помочь
 
 Все тексты лежат в [`data/prompts.json`](data/prompts.json). После правки запусти `node scripts/build.mjs` (без зависимостей): он обновит `index.html`, `questions/` и `templates/`. Новые языки приветствуются; пожалуйста, сохраняй блоки безопасности и принцип «без диагнозов и ярлыков».
+
+## Другие бесплатные инструменты PairClear
+
+| Репозиторий | Что это |
+|---|---|
+| [16 ассоциаций](https://github.com/pairclear/sixteen-associations) | 16 слов об одной теме, по парам до одного |
+| [Психологические линзы](https://github.com/pairclear/psychology-lenses) | Одна ситуация глазами Фрейда, Юнга, КПТ и ещё 5 школ |
+| [Мысли после ссоры](https://github.com/pairclear/conflict-thought-diary) | Дневник мыслей (КПТ) для конфликтов в паре |
+| [Я не психотерапевт](https://github.com/pairclear/not-a-therapist) | Правила безопасности для ИИ-чатов об отношениях |
+| [Опросники об отношениях](https://github.com/pairclear/relationship-questionnaires) | Семь коротких открытых опросников в браузере |
+| [Набор для работы с парами](https://github.com/pairclear/couples-counseling-kit) | Шаблоны, домашние задания и ИИ-промпты для специалистов |
+
+Все инструменты и статьи: [pairclear.com](https://pairclear.com/ru/?utm_source=github&utm_medium=readme&utm_campaign=reflection-journal) · [github.com/pairclear](https://github.com/pairclear)
 
 ## Лицензия
 
